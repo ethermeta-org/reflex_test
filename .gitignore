@@ -1,0 +1,13 @@
+*.db
+*.py[cod]
+.web
+__pycache__/
+assets/external/
+assets/
+backend.zip
+backend/
+!reflex_test/backend
+.vscode/
+.idea/
+.venv/
+

@@ -1,0 +1,12 @@
+# yamllint disable rule:line-length
+# yamllint disable rule:indentation
+# yamllint disable rule:comments-indentation
+# yamllint disable rule:comments
+# too many spelling things, spell-checker: disable
+---
+
+- module-name: 'reflex.utils.compat' # checksum: f6295952
+  anti-bloat:
+    - description: 'disable reflex hacks'
+      module_code: ''
+      when: 'standalone'
